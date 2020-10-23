@@ -21,7 +21,8 @@ PHILOSOPHY = [
     "Kantian",
     "Ethics",
     "Legal and Political Philosophy",
-    "Epistemology and Metaphysics"
+    "Epistemology and Metaphysics",
+    "Uncategorized"
 ]
 
 LITERATURE = [
@@ -29,9 +30,14 @@ LITERATURE = [
     "Novels"
 ]
 
+MISCELLANEOUS = [
+    "Uncategorized"
+]
+
 HEADER_TWO = [
     {"Philosophy": PHILOSOPHY },
-    {"Literature": LITERATURE }
+    {"Literature": LITERATURE },
+    {"Miscellaneous": MISCELLANEOUS }
 ]
 
 with open("data.yml", 'r') as f:
